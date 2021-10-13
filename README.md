@@ -6,7 +6,7 @@ A role in a discord server that has accesss to create and delete Webhooks for sp
 If there is an existing Webhook for a specified channel and you know the Webhook url, you can use that as well.
 
 ########################
-How to setup the script
+How to setup the script : 
 
 It's a very simple thing to do. 
 You will need your webhook url for this. 
@@ -24,7 +24,8 @@ Once you finished all the steps and configured The webhook correctly you will ha
 As always I hope you have a great day and Have fun! 
 ###############################
 
-Note : @everyone and @here will work for webhook spammers no matter what. So in your sting you can use @everyone or @here all you want!
+Note : @everyone and @here will work for webhook spammers no matter what. 
+So in your sting you can use @everyone or @here all you want!
 
 
 
