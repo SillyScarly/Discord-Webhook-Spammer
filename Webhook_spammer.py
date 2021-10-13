@@ -6,7 +6,7 @@ url = "webhook url"
 
 data = {
     "content" : "Message",
-    "username" : "GO FUCK YOURSELFS"
+    "username" : "Raid Bot"
 }
 
 while True:
