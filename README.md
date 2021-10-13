@@ -10,7 +10,7 @@ How to setup the script
 
 It's a very simple thing to do. 
 You will need your webhook url for this. 
-Once you have your webhook url, replace the String "Webhook url" with your webhook url and make sure you have the "" around the string.
+Once you have your webhook url, replace the String "Webhook url" with your webhook url and make sure you have the "" around the webhook url otherwise python won't register it as a string. 
 For the String "Message" you can put any word 
 You want in the "Message" string. This will be your Message that your Webhook will send to the channel. 
  
@@ -23,6 +23,8 @@ The last thing you have to do is run the script in any software that runs python
 Once you finished all the steps and configured The webhook correctly you will have a running webhook spammer! 
 As always I hope you have a great day and Have fun! 
 ###############################
+
+Note : @everyone and @here will work for webhook spammers no matter what. So in your sting you can use @everyone or @here all you want!
 
 
 
