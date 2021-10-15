@@ -1,5 +1,3 @@
-```python
-
 import requests
 
 url = "webhook url"
@@ -18,4 +16,3 @@ while True:
     else:
       print("Payload delivered successfully, code {}.".format(result.status_code))
 
-```
