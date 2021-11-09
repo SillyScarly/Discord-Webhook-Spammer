@@ -1,10 +1,10 @@
 import requests
 
-url = "https://discord.com/api/webhooks/904856971683963030/9jqp7ah8rGYY_GqKtGdNZ6-oTi5JoHqe9agKwnuovMkqwgC69_AFr1UEZBL2Puu4NlEw"
+url = "Insert webhook url here"
 
 
 data = {
-    "content": "@everyone get raided",
+    "content": "message",
     "username": "Raid Bot"
 }
 
