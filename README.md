@@ -15,7 +15,7 @@ Once you have your webhook url, replace the String "Webhook url" with your webho
 For the String "Message" you can put any word 
 You want in the "Message" string. This will be your Message that your Webhook will send to the channel. 
  
-Don't get ahead of yourself. You still have two one thing to do which is optional. The string "Raid bot" can be changed to any name you desire. This will act as your webhook username. Webhooks are like Discord Scripts that act as bots almost.
+Don't get ahead of yourself. You still have one thing to do which is optional. The string "Raid bot" can be changed to any name you desire. This will act as your webhook username. Webhooks are like Discord Scripts that act as bots almost.
 Default username is configured to "Raid bot". Feel free to change it if you want.
 ############################
 Step 2 Get Python
