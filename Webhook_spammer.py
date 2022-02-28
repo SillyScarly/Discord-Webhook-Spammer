@@ -7,5 +7,5 @@ hook = Webhook(Webhook1)
                            
 MessageToSpam = pyautogui.prompt(text='Message To Spam', title='Discord Webhook Spammer')
 while True:
-                           hook.send(f"@everyone {MessageToSpam}")
+   hook.send(f"@everyone {MessageToSpam}")
                            
