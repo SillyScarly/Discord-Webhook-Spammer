@@ -1,18 +1,11 @@
-import requests
+import pyautogui
+from dhooka import Webhook
 
-url = "Insert webhook url here"
-
-
-data = {
-    "content": "message",
-    "username": "Raid Bot"
-}
-
+Webhook1 =pyautogui.prompt(text=Enter Webhook Url', title='Discord Webhook Spammer')
+                           
+hook = Webhook(Webhook1)           
+                           
+MessageToSpam = pyautogui.prompt(text='Message To Spam', title='Discord Webhook Spammer')
 while True:
-    result = requests.post(url, json=data)
-    try:
-        result.raise_for_status()
-    except requests.exceptions.HTTPError as err:
-        print(err)
-    else:
-        print("Payload delivered successfully, code {}.".format(result.status_code))
+                           hook.send(f"@everyone {MessageToSpam}")
+                           
