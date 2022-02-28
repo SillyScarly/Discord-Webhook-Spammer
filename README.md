@@ -1,4 +1,5 @@
 Steps to Setup Discord Webhook Spammer
+
 Step 1: Install python3 on pythons website python.org
 
 Step 2: type in "pip install dhooks" and "pip install pyautogui" into windows command prompt
