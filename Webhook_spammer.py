@@ -1,5 +1,5 @@
 import pyautogui
-from dhooka import Webhook
+from dhooks import Webhook
 
 Webhook1 =pyautogui.prompt(text=Enter Webhook Url', title='Discord Webhook Spammer')
                            
